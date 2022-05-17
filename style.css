@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#131737;
+    font-size:Arial;
+}
+.Navbar ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    text-align: right;
+}
+.Navbar li{
+    display:inline-block;
+    
+}
+.Navbar a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 85px;
+    display:block;
+    padding: 25px 20px;
+    text-transform:none;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+}
+.Navbar a:hover{
+    background: rgb(110, 105, 105);
+    background-position: 50%;
+   
+}
+img{
+    float:left;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-left: 1px;
+}
+.content{
+    width: 100%;
+    display: flex;
+    
+}
+.content div{
+margin-right: 800px;
+}
